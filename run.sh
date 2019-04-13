@@ -1,0 +1,1 @@
+dotnet out/DbUp.Migration.Runner.dll

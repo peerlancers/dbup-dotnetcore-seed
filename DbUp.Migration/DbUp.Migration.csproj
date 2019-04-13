@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Scripts\0-000-000 - Initialization - Copy.sql">
+    <EmbeddedResource Include="Scripts\0-000-000 - Initialization.sql">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>
@@ -17,13 +17,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Scripts\2-000-000 - PendingUsers.View.Idempotent.sql">
+    <EmbeddedResource Include="Scripts\3-000-000 - PendingUsers.View.Idempotent.sql">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Scripts\3-000-000 - DeactivateUsers.Function.Idempotent.sql">
+    <EmbeddedResource Include="Scripts\4-000-000 - DeactivateUsers.Function.Idempotent.sql">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>
