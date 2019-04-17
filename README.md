@@ -7,11 +7,17 @@ This is a starter solution for creating database migration using [DbUp](https://
 ## Getting Started
 ### Environment Variables
  `DB_HOST` - hostname of the database
+
  `DB_NAME` - database name
+
  `DB_USER` - user name
+
  `DB_PASSWORD` - user password
+
  `DB_PORT` - database port
+
  `DB_POOLING` - database pooling (true or false)
+
  
 ### Visual Studio
 1. Clone the `dbup-seed` repository.
