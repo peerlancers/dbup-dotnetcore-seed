@@ -1,4 +1,4 @@
-﻿namespace DbUp.Migration
+﻿namespace DotNetCore.DbUp.Migration
 {
     public interface IDatabaseConnectionSettings
     {

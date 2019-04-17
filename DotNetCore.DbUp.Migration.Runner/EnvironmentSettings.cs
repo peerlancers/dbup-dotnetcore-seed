@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DbUp.Migration.Runner
+namespace DotNetCore.DbUp.Migration.Runner
 {
     public class EnvironmentSettings : IDatabaseConnectionSettings
     {

@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 
-namespace DbUp.Migration.Runner
+namespace DotNetCore.DbUp.Migration.Runner
 {
     public static partial class Program
     {

@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DbUp.Migration\DbUp.Migration.csproj" />
+    <ProjectReference Include="..\DotNetCore.DbUp.Migration\DotNetCore.DbUp.Migration.csproj" />
   </ItemGroup>
 
 </Project>

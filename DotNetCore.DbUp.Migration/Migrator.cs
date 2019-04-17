@@ -1,9 +1,10 @@
-﻿using DbUp.Builder;
+﻿using DbUp;
+using DbUp.Builder;
 using DbUp.Helpers;
 
 using System.Reflection;
 
-namespace DbUp.Migration
+namespace DotNetCore.DbUp.Migration
 {
     public class Migrator : IMigrator
     {
