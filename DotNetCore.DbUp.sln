@@ -3,9 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCore.DbUp.Migration", "DotNetCore.DbUp.Migration\DotNetCore.DbUp.Migration.csproj", "{7E53384A-8E17-402C-8316-913A054A29E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCore.DbUp.Migration", "DotNetCore.DbUp.Migration\DotNetCore.DbUp.Migration.csproj", "{7E53384A-8E17-402C-8316-913A054A29E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCore.DbUp.Migration.Runner", "DotNetCore.DbUp.Migration.Runner\DotNetCore.DbUp.Migration.Runner.csproj", "{BB71CB09-BF73-4BD7-A0B3-980172513A92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCore.DbUp.Migration.Runner", "DotNetCore.DbUp.Migration.Runner\DotNetCore.DbUp.Migration.Runner.csproj", "{BB71CB09-BF73-4BD7-A0B3-980172513A92}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C06D6028-A739-4D7B-9885-EF11047552EC}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		build.sh = build.sh
+		LICENSE = LICENSE
+		README.md = README.md
+		run.sh = run.sh
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

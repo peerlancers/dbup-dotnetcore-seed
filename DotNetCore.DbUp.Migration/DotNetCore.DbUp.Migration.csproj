@@ -5,13 +5,20 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Scripts\1-000-000 - CreateCompaniesTable.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
     <EmbeddedResource Include="Scripts\0-000-000 - Initialization.sql">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Scripts\1-000-000 - CreateUsersTable.sql">
+    <EmbeddedResource Include="Scripts\1-000-000 - CreateCompaniesTable.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Scripts\2-000-000 - CreateUsersTable.sql">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>

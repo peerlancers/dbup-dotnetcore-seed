@@ -1,4 +1,4 @@
-# DbUp - Migration Seed Project
+# .Net Core DbUp - Migration Seed Project
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
@@ -20,14 +20,14 @@ This is a starter solution for creating database migration using [DbUp](https://
 
  
 ### Visual Studio
-1. Clone the `dbup-seed` repository.
+1. Clone the `dbup-netcore-seed` repository.
 2. Set your database connection parameters in the `environmentVariables` in the `DbUp.Migration.Runner` project.
 3. Build the solution using Visual Studio
 4. Run the `DbUp.Migration.Runner`.
 
 ### Using Power Shell
-1. `> git clone https://github.com/peerlancers/dbup-seed.git`
-2. `> cd .\dbup-seed\`
+1. `> git clone https://github.com/peerlancers/dbup-netcore-seed.git`
+2. `> cd .\dbup-netcore-seed\`
 4. `> dotnet build`
 5. `> dotnet publish DbUp.Migration.Runner/DbUp.Migration.Runner.csproj -c release -o out`
 6. `> cd DbUp.Migration.Runner\out`
@@ -35,8 +35,8 @@ This is a starter solution for creating database migration using [DbUp](https://
 8. `> dotnet .\DbUp.Migration.Runner.dll`
 
 ### Using Bash
-1. `> git clone https://github.com/peerlancers/dbup-seed.git`
-2. `> cd dbup-seed`
+1. `> git clone https://github.com/peerlancers/dbup-netcore-seed.git`
+2. `> cd dbup-netcore-seed`
 3. `> bash build.sh`
 4. Set environment variables using `> export VAR_NAME="VALUE"` 
 5. `> bash run.sh`
