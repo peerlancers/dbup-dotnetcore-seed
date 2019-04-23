@@ -68,7 +68,7 @@ namespace DotNetCore.DbUp.Migration
         /// <returns>Connection string</returns>
         private static string buildPostgresConnectionString(IDatabaseConnectionSettings settings)
         {
-            return $"User ID={settings.User};Password={settings.Password};Host={settings.Host};Port={settings.Port};Database={settings.Name};Pooling={settings.Pooling};";
+            return $"User ID={settings.User};Password={settings.Password};Host={settings.Host};Port={settings.Port};Database={settings.DatabaseName};Pooling={settings.Pooling};";
         }
     }
 }

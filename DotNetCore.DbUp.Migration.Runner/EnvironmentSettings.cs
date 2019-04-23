@@ -16,7 +16,7 @@ namespace DotNetCore.DbUp.Migration.Runner
             }
         }
 
-        public string Name => GetValue("DB_NAME");
+        public string DatabaseName => GetValue("DB_NAME");
 
         public string User => GetValue("DB_USER");
 

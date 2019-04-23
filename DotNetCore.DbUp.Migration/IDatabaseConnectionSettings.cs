@@ -6,7 +6,7 @@
 
         uint Port { get; }
 
-        string Name { get; }
+        string DatabaseName { get; }
 
         string User { get; }
 
